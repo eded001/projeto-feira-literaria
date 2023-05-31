@@ -1,0 +1,90 @@
+:root
+{
+    /* arquitetura limpa */
+    --cor01: #242B40;
+    --cor02: #182026;
+    --cor03: #0367A6;
+    --cor04: #048ABF;
+    --cor05: #73BCD9;
+
+    /* o chamado do cthulhu*/
+    --cor06: #3a5302;
+    --cor07: #8fa105;
+    --cor08: #3E5902;
+    --cor09: #97BF04;
+    --cor10: #A9BF04;
+}
+
+/* arquitetura limpa */
+#arquitetura-limpa h1
+{
+    background-color: var(--cor03);
+    color: var(--cor04);
+}
+#arquitetura-limpa main
+{
+    background-color: var(--cor01);
+}
+#arquitetura-limpa h2
+{
+    color: var(--cor03);
+}
+#arquitetura-limpa p
+{
+    color: var(--cor05);
+}
+#arquitetura-limpa a
+{
+    background-color: var(--cor03);
+    color: var(--cor04);
+}
+
+/* o chamado do cthulhu */
+
+#o-chamado-do-cthulhu h1
+{
+    background-color: var(--cor07);
+    color: var(--cor06);
+}
+#o-chamado-do-cthulhu main
+{
+    background-color: var(--cor08);
+}
+#o-chamado-do-cthulhu h2
+{
+    color: var(--cor09);
+}
+#o-chamado-do-cthulhu p
+{
+    color: var(--cor10);
+}
+#o-chamado-do-cthulhu a
+{
+    background-color: var(--cor07);
+    color: var(--cor06);
+}
+
+#id h1
+{
+    border: 1px solid var(--cor0);
+    background-color: var(--cor0);
+    color: var(--cor0);
+}
+
+#id main
+{
+    background-color: var(--cor0);
+}
+#id h2
+{
+    color: var(--cor0);
+}
+#id p
+{
+    color: var(--cor0);
+}
+#id a
+{
+    background-color: var(--cor0);
+    color: var(--cor0);
+}
