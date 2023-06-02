@@ -1,90 +1,134 @@
+:root
+{
+    --cor01: hsl(287, 62%, 56%);
+    --cor02: hsl(287, 83%, 57%);
+    --cor03: hsl(287, 51%, 33%);
+    --cor04: hsl(287, 50%, 28%);
+    --cor05: hsl(286, 50%, 22%);
+    --cor06: hsl(278, 58%, 53%);
+    --cor07: hsl(278, 51%, 33%);
+    --cor08: hsl(278, 44%, 29%);
+    --cor09: hsl(278, 48%, 17%);
+    --cor10: hsl(277, 49%, 8%);
+
+    --color-bg-dark: hsl(277, 48%, 13%);
+    --color-h2-p1: hsl(278, 97%, 63%);
+    --color-p1: hsl(278, 83%, 62%);
+    
+    --color-bg-light: hsl(279, 56%, 45%);
+    --color-h2-p2: hsl(287, 47%, 15%);
+    --color-p2: hsl(288, 64%, 8%);
+}
+
 body
 {
-    background-color: #333;
+    background-color: #aa06f7;
+}
 
+header
+{
     display: grid;
     place-items: center;
+
+    height: 100vh;
+
+    background: #aa06f7 url(../../imgs/background-image/woman-power-logo1.png) no-repeat center center fixed;
 }
 
-section
+header h1
 {
+    /* border: 1px solid #f00; */
+    border-radius: 50px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: #331a3f;
+
+    padding: 0 15px;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+main
+{
+    /* margin-top: 5px; */
+
+    box-shadow: 0 0 2px 1px #00000080;
+
     border-radius: 10px;
-
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-
-    position: relative;
-
-    max-width: 800px;
-
-    margin-bottom: 10px;
 }
 
-section img
+main article
 {
-    border-radius: 8px;
+    padding: 0 10px;
 
-    width: 125%;
-    height: 100%;
-
-    z-index: 1;
-
-    transform: translateX(-45px);
+    box-shadow: inset 0 0 2px 1px #00000050;
 }
 
-section h1
+main article:first-of-type
 {
-    border-radius: 10px;
+    border-radius: 5px 5px 0 0;
+}
+main article:last-of-type
+{
+    border-radius: 0 0 5px 5px;
+}
 
+main article h1, h2
+{
     font-size: 1.5em;
-
-    padding: 0 10px;
-
-    position: absolute;
-    top: -2px;
-    left: 285px;
-
-    box-shadow: 0 0 2px 2px #00000030;
+}
+main article h1::first-letter, h2::first-letter
+{
+    font-size: 1.2em;
 }
 
-section article
+main article
 {
-    display: grid;
-    place-items: center;
+    padding: 10px 4px;
 }
 
-section article main
+/* nth-child(odd) bg-dark */
+main article:nth-child(odd)
 {
-    border-radius: 0 10px 10px 0;
-
-    padding: 5px 2px 5px 22px;
-
-    box-shadow: inset 0 0 2px 2px #00000080;
+    background-color: var(--color-bg-dark);
+}
+main article:nth-child(odd) h2
+{
+    color: var(--color-h2-p1);
+}
+main article:nth-child(odd) p
+{
+    color: var(--color-p1);
 }
 
-section article h2
+/* nth-child(even) bg-light*/
+main article:nth-child(even)
 {
-    font-size: 1.3em;
-
-    margin-bottom: 2px;
+    background-color: var(--color-bg-light);
+}
+main article:nth-child(even) h2
+{
+    color: var(--color-h2-p2);
+}
+main article:nth-child(even) p
+{
+    color: var(--color-p2);
 }
 
-section article p
+main article section p
 {
-    margin-bottom: 4px;
-
-    text-justify: justify;
+    text-indent: 15px;
 }
 
-section article a
+main article section a
 {
-    border-radius: 10px;
+    color: currentColor;
 
-    padding: 0 10px;
-
-    position: absolute;
-    right: 10px;
-    bottom: 3px;
-
-    box-shadow: 0 0 2px 2px #00000030;
+    font-style: italic;
+}
+main article section a:active
+{
+    color: var(--cor05);
 }

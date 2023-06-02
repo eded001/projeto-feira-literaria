@@ -16,7 +16,7 @@
 }
 
 /* arquitetura limpa */
-#arquitetura-limpa h1
+#arquitetura-limpa h2
 {
     background-color: var(--cor03);
     color: var(--cor04);
@@ -25,7 +25,7 @@
 {
     background-color: var(--cor01);
 }
-#arquitetura-limpa h2
+#arquitetura-limpa h3
 {
     color: var(--cor03);
 }
@@ -41,7 +41,7 @@
 
 /* o chamado do cthulhu */
 
-#o-chamado-do-cthulhu h1
+#o-chamado-do-cthulhu h2
 {
     background-color: var(--cor07);
     color: var(--cor06);
@@ -50,7 +50,7 @@
 {
     background-color: var(--cor08);
 }
-#o-chamado-do-cthulhu h2
+#o-chamado-do-cthulhu h3
 {
     color: var(--cor09);
 }
@@ -64,7 +64,7 @@
     color: var(--cor06);
 }
 
-#id h1
+#id h2
 {
     border: 1px solid var(--cor0);
     background-color: var(--cor0);
@@ -75,7 +75,7 @@
 {
     background-color: var(--cor0);
 }
-#id h2
+#id h3
 {
     color: var(--cor0);
 }
