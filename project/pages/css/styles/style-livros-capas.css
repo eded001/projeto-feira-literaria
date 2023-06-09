@@ -1,90 +1,135 @@
 :root
 {
-    /* arquitetura limpa */
-    --cor01: #242B40;
-    --cor02: #182026;
-    --cor03: #0367A6;
-    --cor04: #048ABF;
-    --cor05: #73BCD9;
+    /* a bolsa amarela */
+    --cor01: #BFBDA3;
+    --cor02: #E9DE9C;
+    --cor03: #F2C029;
+    --cor04: #D99923;
+    --cor05: #D94032;
 
-    /* o chamado do cthulhu*/
-    --cor06: #3a5302;
-    --cor07: #8fa105;
-    --cor08: #3E5902;
-    --cor09: #97BF04;
-    --cor10: #A9BF04;
+    /* amavisse */
+    --cor06: #D91A60;
+    --cor07: #D42591;
+    --cor08: #F222A9;
+    --cor09: #D91E98;
+    --cor10: #243773;
+
+    /* laços de família */
+    --cor11: #A63F52;
+    --cor12: #D9CF9C;
+    --cor13: #A69F7B;
+    --cor14: #D9D5C1;
+    --cor15: #A66556;
+
+    /* poesia */
+    --cor16: #D95276;
+    --cor17: #D92A1A;
+    --cor18: #8f241a;
+    --cor19: #8C2626;
+    --cor20: #732F2F;
+
+    /* por um feminismo afro-latino-americano */
+    --cor21: #8C323A;
+    --cor22: #035941;
+    --cor23: #F29727;
+    --cor24: #A64E2E;
+    --cor25: #005E73;
 }
 
-/* arquitetura limpa */
-#arquitetura-limpa h2
+/* a bolsa amarela */
+#bolsa-amarela h2, #bolsa-amarela a
 {
     background-color: var(--cor03);
     color: var(--cor04);
 }
-#arquitetura-limpa main
+#bolsa-amarela main
 {
-    background-color: var(--cor01);
+    background-color: var(--cor05);
 }
-#arquitetura-limpa h3
+#bolsa-amarela h3
 {
     color: var(--cor03);
 }
-#arquitetura-limpa p
+#bolsa-amarela p
 {
-    color: var(--cor05);
-}
-#arquitetura-limpa a
-{
-    background-color: var(--cor03);
-    color: var(--cor04);
+    color: var(--cor01);
 }
 
-/* o chamado do cthulhu */
-
-#o-chamado-do-cthulhu h2
+/* amavisse */
+#amavisse h2, #amavisse a
 {
     background-color: var(--cor07);
     color: var(--cor06);
 }
-#o-chamado-do-cthulhu main
+#amavisse main
 {
-    background-color: var(--cor08);
+    background-color: var(--cor10);
 }
-#o-chamado-do-cthulhu h3
+#amavisse h3
 {
     color: var(--cor09);
 }
-#o-chamado-do-cthulhu p
+#amavisse p
 {
-    color: var(--cor10);
-}
-#o-chamado-do-cthulhu a
-{
-    background-color: var(--cor07);
-    color: var(--cor06);
+    color: var(--cor08);
 }
 
-#id h2
+/* laços de família */
+#lacos-de-familia h2, #lacos-de-familia a
 {
-    border: 1px solid var(--cor0);
-    background-color: var(--cor0);
-    color: var(--cor0);
+    background-color: var(--cor11);
+    color: var(--cor15);
 }
 
-#id main
+#lacos-de-familia main
 {
-    background-color: var(--cor0);
+    background-color: var(--cor14);
 }
-#id h3
+#lacos-de-familia h3
 {
-    color: var(--cor0);
+    color: var(--cor13);
 }
-#id p
+#lacos-de-familia p
 {
-    color: var(--cor0);
+    color: var(--cor11);
 }
-#id a
+
+/* da poesia */
+#da-poesia h2, #da-poesia a
 {
-    background-color: var(--cor0);
-    color: var(--cor0);
+    background-color: var(--cor17);
+    color: var(--cor18);
+}
+
+#da-poesia main
+{
+    background-color: var(--cor16);
+}
+#da-poesia h3
+{
+    color: var(--cor20);
+}
+#da-poesia p
+{
+    color: var(--cor19);
+}
+
+/* por um feminismo afro-latino-americano*/
+#por-um-feminismo h2, #por-um-feminismo a
+{
+    background-color: var(--cor24);
+    color: var(--cor22);
+}
+
+#por-um-feminismo main
+{
+    background-color: var(--cor21);
+}
+#por-um-feminismo h3
+{
+    color: var(--cor25);
+}
+#por-um-feminismo p
+{
+    color: var(--cor23);
 }
