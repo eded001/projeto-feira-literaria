@@ -10,19 +10,27 @@
     --cor08: hsl(278, 44%, 29%);
     --cor09: hsl(278, 48%, 17%);
     --cor10: hsl(277, 49%, 8%);
+    --cor11: #aa06f7;
 
-    --color-bg-dark: hsl(277, 48%, 13%);
-    --color-h2-p1: hsl(278, 97%, 63%);
-    --color-p1: hsl(278, 83%, 62%);
-    
+    --color-bg-dark: hsl(279, 50%, 10%);
+    --color-h2-p1: hsl(278, 80%, 49%);
+    --color-p1: hsl(278, 83%, 67%);
+
     --color-bg-light: hsl(279, 56%, 45%);
-    --color-h2-p2: hsl(287, 47%, 15%);
+    --color-h2-p2: hsl(287, 56%, 12%);
     --color-p2: hsl(288, 64%, 8%);
+
+    --color-details-suspense: hsl(287, 41%, 51%);
+    --color-details-summary-suspense: hsl(279, 59%, 11%);
+
+    --color-details-open: hsl(278, 55%, 60%);
+    --color-details-summary-open: hsl(279, 52%, 17%);
+    --color-details-a-open: hsl(278, 58%, 20%);
 }
 
 body
 {
-    background-color: #aa06f7;
+    background-color: #c953ff;
 }
 
 header
@@ -32,28 +40,26 @@ header
 
     height: 100vh;
 
-    background: #aa06f7 url(../../imgs/background-image/feminismo-logo.png) no-repeat center center fixed;
+    background: url(../../imgs/background-image/feminismo-logo2.png) no-repeat center center fixed;
 }
 
 header h1
 {
-    /* border: 1px solid #f00; */
     border-radius: 50px;
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
 
     color: #331a3f;
 
     padding: 0 15px;
 
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 main
 {
-    /* margin-top: 5px; */
-
     box-shadow: 0 0 2px 1px #00000080;
 
     border-radius: 10px;
@@ -75,10 +81,13 @@ main article:last-of-type
     border-radius: 0 0 5px 5px;
 }
 
-main article h1, h2
+main article h2
 {
     font-size: 1.5em;
+
+    position: relative;
 }
+
 main article h1::first-letter, h2::first-letter
 {
     font-size: 1.2em;
@@ -131,4 +140,67 @@ main article section a
 main article section a:active
 {
     color: var(--cor05);
+}
+
+footer
+{
+    display: grid;
+    place-items: center;
+
+    padding: 0 0 50px;
+}
+
+footer details
+{
+    background-color: var(--color-details-suspense);
+
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    padding: 2px 40px;
+
+    box-shadow: inset 0 0 2px 2px #00000050;
+
+    transition: .8s all ease;
+}
+
+footer details[open]
+{
+    background-color: var(--color-details-open);
+
+    color: var(--color-details-summary-open);
+
+    padding: 0 90px;
+}
+footer details[open] summary
+{
+    color: var(--color-details-summary-open);
+}
+
+footer details summary
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+
+    text-align: center;
+
+    color: var(--color-details-summary-suspense);
+
+    cursor: pointer;
+}
+
+
+footer details
+{
+    list-style-position: inside;
+}
+
+footer details a
+{
+    color: var(--color-details-a-open);
+}
+footer details a::after
+{
+    content: '🔗';
 }
