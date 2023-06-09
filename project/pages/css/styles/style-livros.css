@@ -6,6 +6,47 @@ body
     place-items: center;
 }
 
+/* divisão de gêneros*/
+.divisao
+{
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    padding: 1px 5px;
+    margin: 20px 0;
+
+    background-color: #ffffff80;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+
+    position: relative;
+}
+/* principal */
+.divisao::before, .divisao::after
+{
+    content: '';
+
+    background-color: #fff;
+
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 2px;
+    width: 43.8vw;
+}
+/* separado */
+.divisao::before
+{
+    right: 100%;
+}
+.divisao::after
+{
+    left: 100%;
+}
+
 section
 {
     border-radius: 10px;
