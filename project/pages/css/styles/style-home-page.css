@@ -12,7 +12,7 @@
     --cor10: hsl(277, 49%, 8%);
     --cor11: #aa06f7;
 
-    --color-bg-dark: hsl(279, 50%, 10%);
+    --color-bg-dark: hsl(278, 37%, 13%);
     --color-h2-p1: hsl(278, 80%, 49%);
     --color-p1: hsl(278, 83%, 67%);
 
@@ -53,9 +53,6 @@ header h1
     color: #331a3f;
 
     padding: 0 15px;
-
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
 }
 
 main
@@ -199,8 +196,4 @@ footer details
 footer details a
 {
     color: var(--color-details-a-open);
-}
-footer details a::after
-{
-    content: '🔗';
 }
