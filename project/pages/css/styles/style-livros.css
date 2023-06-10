@@ -6,7 +6,7 @@ body
     place-items: center;
 }
 
-/* divisão de gêneros*/
+/* divisão de gêneros */
 .divisao
 {
     border: 2px solid #fff;
@@ -110,7 +110,7 @@ section article main h3
     margin-bottom: 2px;
 }
 
-section article main p
+section article main p, section article main p a
 {
     margin-bottom: 4px;
 
@@ -128,4 +128,9 @@ section article main a
     bottom: 3px;
 
     box-shadow: 0 0 2px 2px #00000035;
+}
+
+footer a::after
+{
+    content: '';
 }
