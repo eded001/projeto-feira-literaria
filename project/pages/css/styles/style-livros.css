@@ -2,18 +2,49 @@ body
 {
     background-color: #222;
 
+    overflow-x: hidden;
+
     display: grid;
     place-items: center;
 
     scroll-behavior: smooth;
 }
 
+.poesias-poemas
+{
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.poesias-poemas img
+{
+    width: 50%;
+
+    z-index: 0;
+
+    transform: translateX(0);
+}
+.poesias-poemas h2
+{
+    position: absolute;
+
+    right: 50%;
+    bottom: 0;
+
+    padding: 0 50px;
+
+    transform: translateX(50%);
+}
+
 .divisao
 {
     position: relative;
-    
+
     border-radius: 50%;
-    
+
     margin: 8px 0;
     padding: 7px 15px;
 
@@ -23,6 +54,11 @@ body
     background-color: #00000050;
 
     color: #fff;
+}
+
+.icon
+{
+    transform: translate(0);
 }
 
 a::after
@@ -58,9 +94,15 @@ aside
 
     box-shadow: 0 0 4px 2px #00000050;
 }
+
 aside ol
 {
     border: 1px solid #0f0;
+}
+
+aside ol li img
+{
+    height: 10px;
 }
 
 aside h2
@@ -121,14 +163,33 @@ section img
     height: 100%;
 
     z-index: 1;
-
-    transform: translateX(45px);
+}
+.not-poesia img
+{
+    transform: translateX(-45px);
+}
+.not-poesia a img
+{
+    transform: translateX(0);
 }
 
 section article
 {
     display: grid;
     place-items: center;
+}
+
+section article a
+{
+    display: flex;
+}
+
+section article a img
+{
+    height: 10px;
+
+    display: grid;
+    place-self: center;
 }
 
 section article main
@@ -182,4 +243,20 @@ section article main p, .not-poesia article a
     bottom: 3px;
 
     box-shadow: 0 0 2px 2px #00000035;
+}
+.not-poesia ul
+{
+    list-style-position: outside;
+}
+.not-poesia ul a
+{
+    position: static;
+    right: auto;
+    bottom: auto;
+}
+.not-poesia ul li::marker
+{
+    color: #fff;
+
+    opacity: 80%;
 }
