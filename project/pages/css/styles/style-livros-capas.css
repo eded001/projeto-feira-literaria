@@ -34,6 +34,93 @@
     --cor23: #F29727;
     --cor24: #A64E2E;
     --cor25: #005E73;
+
+    /* quem tem medo */
+    --cor26: #D90467;
+    --cor27: #3703A6;
+    --cor28: #2E038C;
+    --cor29: #F2CB07;
+    --cor30: #F2B807;
+
+    /* how to suppress*/
+    --cor31: #F22738;
+    --cor32: #D91414;
+    --cor33: #F29494;
+    --cor34: #F2F2F2;
+    --cor35: #0D0D0D;
+
+    /* papel de parede */
+    --cor36: #F2D750;
+    --cor37: #403001;
+    --cor38: #A6831C;
+    --cor39: #D9B13B;
+    --cor40: #261901;
+
+    /* ursula */
+    --cor41: #BF3945;
+    --cor42: #595951;
+    --cor43: #A65644;
+    --cor44: #BF3434;
+    --cor45: #F2F2F2;
+
+    /* segundo sexo */
+    --cor46: #BF8450;
+    --cor47: #F2D5C4;
+    --cor48: #F2784B;
+    --cor49: #F26E50;
+    --cor50: #262626;
+
+    /* o feminismo */
+    --cor51: #0D0C04;
+    --cor52: #BF6D24;
+    --cor53: #734124;
+    --cor54: #A6372D;
+    --cor55: #A6372D;
+
+    /* reforma ou revo*/
+    --cor56: #262223;
+    --cor57: #A3C9D9;
+    --cor58: #D99F59;
+    --cor59: #8C3D20;
+    --cor60: #D95032;
+
+    /* mulher raca */
+    --cor61: #D92534;
+    --cor62: #07080D;
+    --cor63: #400101;
+    --cor64: #F22929;
+    --cor65: #F2F2F2;
+
+    /* a bruxa */
+    --cor66: #F21D2F;
+    --cor67: #F2F2F2;
+
+    /* a princesa */
+    --cor68: #D99F59;
+    --cor69: #8C3D20;
+
+    /* a sereia */
+    --cor70: #262624;
+    --cor71: #BFBFBF;
+
+    /*eu*/
+    --cor72: #D95A2B;
+    --cor73: #F2D888;
+
+    /* faça sua coroa */
+    --cor74: #BDB4BF;
+    --cor75: #BF2A45;
+
+    /*Para educar crianças*/
+    --cor76: #AFD918;
+    --cor77: #BF0B8F;
+
+    /*Frankenstein*/
+    --cor79: #ABD9A9;
+    --cor80: #A6BF4B;
+    --cor81: #F2C849;
+    --cor82: #D9AB73;
+    --cor83: #262626;
 }
 
 /* a bolsa amarela */
@@ -134,4 +221,30 @@
 #por-um-feminismo p
 {
     color: var(--cor23);
+}
+
+/* CASOS ISOLADOS */
+#a-bruxa
+{
+    margin-bottom: 165px;
+}
+
+#a-princesa
+{
+    margin-bottom: 160px;
+}
+
+#a-voz-da-sereia
+{
+    margin-bottom: 135px;
+}
+
+#eu-destilo-melanina
+{
+    margin-bottom: 130px;
+}
+
+#faca-sua-coroa
+{
+    margin-bottom: 100px;
 }
