@@ -228,23 +228,108 @@
 {
     margin-bottom: 165px;
 }
+#a-bruxa a
+{
+    color: var(--cor66);
+    background-color: var(--cor67);
+}
+
+#quem-tem-medo h2
+{
+    color: var(--cor29);
+    background-color: var(--cor26);
+}
+
+#how-to-suppress h2
+{
+    color: var(--cor31);
+    background-color: var(--cor34);
+}
+
+#o-papel-de-parede h2, a
+{
+    color: var(--cor36);
+    background-color: var(--cor37);
+}
+#o-papel-de-parede main
+{
+    background-color: var(--cor40);
+}
+#o-papel-de-parede h3
+{
+    color: var(--cor38);
+}
+#o-papel-de-parede p
+{
+    color: var(--cor38);
+}
+
+#ursula h2
+{
+    color: var(--cor41);
+    background-color: var(--cor45);
+}
+
+#o-segundo-sexo h2
+{
+    color: var(--cor47);
+    background-color: var(--cor49);
+}
+
+#o-feminismo-e-para-todo h2
+{
+    color: var(--cor52);
+    background-color: var(--cor55);
+}
+
+#reforma-ou h2
+{
+    color: var(--cor56);
+    background-color: var(--cor58);
+}
+
+#mulheres-raca h2
+{
+    color: var(--cor62);
+    background-color: var(--cor64);
+}
 
 #a-princesa
 {
     margin-bottom: 160px;
+}
+#a-princesa a
+{
+    color: var(--cor71);
+    background-color: var(--cor70);
 }
 
 #a-voz-da-sereia
 {
     margin-bottom: 135px;
 }
+#a-voz-da-sereia a
+{
+    color: #4F4D8C;
+    background-color: #010326;
+}
 
 #eu-destilo-melanina
 {
     margin-bottom: 130px;
 }
+#eu-destilo-melanina a
+{
+    color: var(--cor72);
+    background-color: var(--cor73);
+}
 
 #faca-sua-coroa
 {
     margin-bottom: 100px;
+}
+#faca-sua-coroa a
+{
+    color: var(--cor74);
+    background-color: var(--cor75);
 }
