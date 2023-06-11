@@ -55,25 +55,6 @@
     color: var(--cor01);
 }
 
-/* amavisse */
-#amavisse h2, #amavisse a
-{
-    background-color: var(--cor07);
-    color: var(--cor06);
-}
-#amavisse main
-{
-    background-color: var(--cor10);
-}
-#amavisse h3
-{
-    color: var(--cor09);
-}
-#amavisse p
-{
-    color: var(--cor08);
-}
-
 /* laços de família */
 #lacos-de-familia h2, #lacos-de-familia a
 {
@@ -94,25 +75,47 @@
     color: var(--cor11);
 }
 
+/* COMEÇO POESIAS/POEMAS */
+/* amavisse */
+.poesias-poemas a
+{
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -15px);
+
+    border-radius: 10px;
+
+    padding: 0 10px;
+
+    box-shadow: 0 0 2px 2px #00000035;
+
+    text-align: center;
+
+    z-index: 1;
+}
+
+#amavisse
+{
+    margin-bottom: 20px;
+}
+#amavisse a
+{
+    background-color: var(--cor07);
+    color: var(--cor10);
+}
+
 /* da poesia */
-#da-poesia h2, #da-poesia a
+#da-poesia a
 {
     background-color: var(--cor17);
     color: var(--cor18);
 }
-
-#da-poesia main
+#da-poesia
 {
-    background-color: var(--cor16);
+    margin-bottom: 45px;
 }
-#da-poesia h3
-{
-    color: var(--cor20);
-}
-#da-poesia p
-{
-    color: var(--cor19);
-}
+/* FIM POESIAS/POEMAS*/
 
 /* por um feminismo afro-latino-americano*/
 #por-um-feminismo h2, #por-um-feminismo a
