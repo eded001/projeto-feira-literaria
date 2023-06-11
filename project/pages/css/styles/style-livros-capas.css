@@ -222,6 +222,10 @@
 {
     color: var(--cor23);
 }
+#por-um-feminismo
+{
+    margin-bottom: 110px;
+}
 
 /* CASOS ISOLADOS */
 #a-bruxa
@@ -234,13 +238,21 @@
     background-color: var(--cor67);
 }
 
-#quem-tem-medo h2
+#quem-tem-medo
+{
+    margin-bottom: 140px;
+}
+#quem-tem-medo a
 {
     color: var(--cor29);
     background-color: var(--cor26);
 }
 
-#how-to-suppress h2
+#how-to-suppress
+{
+    margin-bottom: 100px;
+}
+#how-to-suppress a
 {
     color: var(--cor31);
     background-color: var(--cor34);
@@ -264,31 +276,47 @@
     color: var(--cor38);
 }
 
-#ursula h2
+#ursula a
 {
     color: var(--cor41);
     background-color: var(--cor45);
 }
 
-#o-segundo-sexo h2
+#o-segundo-sexo
+{
+    margin-bottom: 80px;
+}
+#o-segundo-sexo a
 {
     color: var(--cor47);
     background-color: var(--cor49);
 }
 
-#o-feminismo-e-para-todo h2
+#o-feminismo-e-para-todo
+{
+    margin-bottom: 110px;
+}
+#o-feminismo-e-para-todo a
 {
     color: var(--cor52);
     background-color: var(--cor55);
 }
 
-#reforma-ou h2
+#reforma-ou
+{
+    margin-bottom: 100px;
+}
+#reforma-ou a
 {
     color: var(--cor56);
     background-color: var(--cor58);
 }
 
-#mulheres-raca h2
+#mulheres-raca
+{
+    margin-bottom: 70px;
+}
+#mulheres-raca a
 {
     color: var(--cor62);
     background-color: var(--cor64);
@@ -334,6 +362,10 @@
     background-color: var(--cor75);
 }
 
+#para-educar-criancas
+{
+    margin-bottom: 80px;
+}
 #para-educar-criancas a
 {
     color: var(--cor77);
