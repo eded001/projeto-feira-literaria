@@ -246,7 +246,7 @@
     background-color: var(--cor34);
 }
 
-#o-papel-de-parede h2, a
+#o-papel-de-parede h2, #o-papel-de-parede a
 {
     color: var(--cor36);
     background-color: var(--cor37);
@@ -332,4 +332,28 @@
 {
     color: var(--cor74);
     background-color: var(--cor75);
+}
+
+#para-educar-criancas a
+{
+    color: var(--cor77);
+    background-color: var(--cor76);
+}
+
+#frankenstein h2, #frankenstein a
+{
+    color: var(--cor83);
+    background-color: var(--cor81);
+}
+#frankenstein main
+{
+    background-color: var(--cor79);
+}
+#frankenstein h3
+{
+    color: var(--cor82);
+}
+#frankenstein p
+{
+    color: var(--cor83);
 }
