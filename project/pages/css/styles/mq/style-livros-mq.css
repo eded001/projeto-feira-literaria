@@ -1,5 +1,15 @@
 @media screen and (max-width: 915px)
 {
+    body
+    {
+        overflow-x: hidden;
+    }
+
+    hr
+    {
+        width: 500%;
+    }
+
     section
     {
         border-radius: 0;
@@ -33,7 +43,7 @@
         padding-top: 20px;
     }
 
-    section article main h2
+    .not-poesia article h2
     {
         font-size: 1.5em;
 
@@ -49,7 +59,7 @@
         box-shadow: inset;
     }
 
-    section article main a
+    .not-poesia article a
     {
         position: absolute;
 
