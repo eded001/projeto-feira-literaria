@@ -130,7 +130,7 @@ aside a::after
     font-size: .6em;
 }
 
-aside ol li::marker
+aside ol li::marker, aside ul li::marker
 {
     color: #ffffff90;
 }
@@ -154,7 +154,6 @@ section img
     border-radius: 8px;
 
     width: 125%;
-    height: 100%;
 
     z-index: 1;
 }
@@ -248,14 +247,28 @@ section article main p, .not-poesia article a
     right: auto;
     bottom: auto;
 }
-.not-poesia ul li::marker
-{
-    color: #fff;
-
-    opacity: 80%;
-}
 
 footer a
 {
     color: #fff;
+}
+
+#bolsa-amarela h2
+{
+    position: absolute;
+    top: 12px;
+}
+#frankenstein h2
+{
+    position: absolute;
+    top: 40px;
+}
+#o-papel-de-parede
+{
+    margin-top: 20px;
+}
+#o-papel-de-parede h2
+{
+    position: absolute;
+    top: -18px;
 }
