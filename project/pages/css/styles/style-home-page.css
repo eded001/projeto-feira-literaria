@@ -24,8 +24,9 @@
     --color-details-summary-suspense: hsl(279, 59%, 11%);
 
     --color-details-open: hsl(278, 55%, 60%);
-    --color-details-summary-open: hsl(279, 52%, 17%);
-    --color-details-a-open: hsl(278, 58%, 20%);
+    --color-details-summary-li-color: hsl(277, 100%, 18%);
+    --color-details-summary-title: hsl(279, 52%, 17%);
+    --color-details-a-color: hsl(278, 58%, 20%);
 }
 
 body
@@ -165,13 +166,11 @@ footer details[open]
 {
     background-color: var(--color-details-open);
 
-    color: var(--color-details-summary-open);
-
     padding: 0 90px;
 }
 footer details[open] summary
 {
-    color: var(--color-details-summary-open);
+    color: var(--color-details-summary-title);
 }
 
 footer details summary
@@ -187,13 +186,19 @@ footer details summary
     cursor: pointer;
 }
 
+footer details li::marker, footer details summary::marker
+{
+    color: var(--color-details-summary-li-color);
+}
 
-footer details
+footer details ul
 {
     list-style-position: inside;
+
+    text-align: center;
 }
 
 footer details a
 {
-    color: var(--color-details-a-open);
+    color: var(--color-details-a-color);
 }
