@@ -1,12 +1,29 @@
 @media screen and (max-width: 915px)
+
 {
-    #por-um-feminismo main
+
+    #bolsa-amarela
+
     {
-        padding-top: 95px;
+
+        margin-bottom: 55px;
+
     }
 
-    #bolsa-amarela main, #lacos-de-familia main
+    #frankenstein
+
     {
-        padding-top: 35px;
+
+        margin-bottom: 50px;
+
     }
+
+    #frankenstein h2
+
+    {
+
+        transform: translate(50%, -30px);
+
+    }
+
 }
