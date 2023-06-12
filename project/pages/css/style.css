@@ -38,13 +38,20 @@ a:hover
 a::after
 {
     content: '🔗';
+
     font-size: .8em;
+}
+
+footer p, footer a
+{
+    color: #ffffff50;
+
+
 }
 
 footer p
 {
-    color: #ffffff50;
-
+    
     margin-top: 10px;
 }
 
@@ -52,5 +59,6 @@ footer p
 footer p a::after
 {
     content: '🔗';
+
     font-size: .8em;
 }
