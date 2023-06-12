@@ -40,3 +40,18 @@ a::after
     content: '🔗';
     font-size: .8em;
 }
+
+footer p
+{
+    color: #fff;
+}
+
+
+footer p a::after
+{
+
+    content: '🔗';
+
+    font-size: .8em;
+
+}
