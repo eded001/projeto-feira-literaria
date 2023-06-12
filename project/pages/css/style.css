@@ -43,15 +43,14 @@ a::after
 
 footer p
 {
-    color: #fff;
+    color: #ffffff50;
+
+    margin-top: 10px;
 }
 
 
 footer p a::after
 {
-
     content: '🔗';
-
     font-size: .8em;
-
 }
